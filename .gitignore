@@ -18,3 +18,7 @@ teams-for-linux
 lazygit/state.yml
 fish/fish_variables
 qutebrowser/qsettings
+ags/scss/_material.scss
+dconf
+fuzzel
+nvim
