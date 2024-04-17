@@ -1,0 +1,22 @@
+font_family CaskaydiaCove Nerd Font
+# font_family FiraCode Nerd Fo
+font_size 15.0
+disable_ligatures never
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+dynamic_background_opacity  no
+background_opacity          0.7
+
+window_padding_width        45
+placement_strategy          center
+
+confirm_os_window_close     0
+allow_remote_control        yes
+
+
+# BEGIN_KITTY_THEME
+# Adapta Nokto Maia
+# include generated-theme.conf
+# END_KITTY_THEME

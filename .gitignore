@@ -1,0 +1,20 @@
+eos*
+EOS*
+gnome*
+ibus/
+user-dirs.dirs
+spicetify/
+Microsoft/
+Microsoft\ Teams\  -\ Preview/
+teams/
+autostart/
+google-chrome/
+spotify/
+spotify-player
+spotify-tui
+obsidian
+microsoft-edge
+teams-for-linux
+lazygit/state.yml
+fish/fish_variables
+qutebrowser/qsettings
