@@ -5,16 +5,10 @@ def parse_scss_colors(scss_file_path):
     colors = {}
     with open(scss_file_path, "r") as file:
         for line in file:
-            if (
-                ":" in line
-            ):  # This checks if the line is likely to contain a variable definition
+            if ":" in line:
                 key, value = line.split(":")
-                key = key.strip().replace(
-                    "$", ""
-                )  # Remove the dollar sign and any leading/trailing whitespace
-                value = value.split(";")[
-                    0
-                ].strip()  # Clean the value by removing the semicolon and whitespace
+                key = key.strip().replace("$", "")
+                value = value.split(";")[0].strip()
                 colors[key] = value
     return colors
 

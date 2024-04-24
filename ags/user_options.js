@@ -1,3 +1,4 @@
+
 const userConfigOptions = {
   // For every option, see ~/.config/ags/modules/.configuration/user_options.js
   // (tip4vscode: `ctrl+click` this: file://./modules/.configuration/user_options.js)

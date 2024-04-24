@@ -164,9 +164,15 @@ else
     colorvalues=( $colorstrings ) # Array of color values
 fi
 
+apply_qutebrowser() {
+    $HOME/.config/ags/scripts/color_generation/switch_qb_theme.sh
+    pkill -HUP qutebrowser
+}
+
 apply_ags &
 apply_hyprland &
 apply_hyprlock &
 apply_gtk &
 apply_fuzzel &
+apply_qutebrowser &
 # apply_term &
