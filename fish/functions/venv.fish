@@ -8,6 +8,6 @@ function venv --description 'Shortcut that creates local venv and install requir
   if test -e ./requirements.txt
     pip install -r requirements.txt
   else
-    echo '"requirements.txt" not found, are you in the correct directory?'
+    echo '"requirements.txt" not found.'
   end
 end

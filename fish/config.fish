@@ -7,7 +7,7 @@ end
 
 set -gx EDITOR nvim
 set -gx BROWSER qutebrowser
-set -Ux QBPM_PROFILE_DIR /home/juuls/.config/qutebrowser/profiles/
+set -gx QBPM_PROFILE_DIR /home/juuls/.config/qutebrowser/profiles/
 
 
 # starship init fish | source

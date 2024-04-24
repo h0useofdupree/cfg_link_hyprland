@@ -19,14 +19,15 @@ let configOptions = {
     keyboardUseFlag: false, // Use flag emoji instead of abbreviation letters
     layerSmoke: false,
     layerSmokeStrength: 0.2,
+    fakeScreenRounding: true,
   },
   apps: {
     bluetooth: "blueberry",
     imageViewer: "loupe",
     network: 'XDG_CURRENT_DESKTOP="gnome" gnome-control-center wifi',
     settings: 'XDG_CURRENT_DESKTOP="gnome" gnome-control-center wifi',
-    taskManager: "gnome-system-monitor",
-    terminal: "kitty", // This is only for shell actions
+    taskManager: "gnome-usage",
+    terminal: "foot", // This is only for shell actions
   },
   battery: {
     low: 20,

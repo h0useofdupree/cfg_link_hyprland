@@ -12,6 +12,8 @@ settings:
         ',M': hint links spawn umpv {hint-url}
         ',m': spawn umpv {url}
         ;M: hint --rapid links spawn umpv {hint-url}
+  colors.webpage.darkmode.enabled:
+    global: false
   colors.webpage.preferred_color_scheme:
     global: dark
   content.desktop_capture:
@@ -49,11 +51,13 @@ settings:
       left: 15
       right: 15
       top: 10
+  tabs.favicons.scale:
+    global: 1.5
   tabs.padding:
     global:
       bottom: 10
-      left: 10
-      right: 10
+      left: 15
+      right: 15
       top: 10
   url.searchengines:
     global:
